@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.menu_home.user.fm.ChageImageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            app:cardCornerRadius="20sp"
+            android:layout_margin="15sp"
+            app:cardBackgroundColor="@color/md_red_400"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/assess_iblis"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            app:cardCornerRadius="20sp"
+            android:layout_margin="15sp"
+            app:cardBackgroundColor="@color/md_red_400"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="5sp"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="5sp"
+                  android:text="@string/app_name"
+                  android:textSize="35sp"
+                  android:fontFamily="@font/neon"
+                  android:gravity="center"/>
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:inputType="textMultiLine"
+                  android:scrollbars="vertical"
+                  android:background="@color/dark_color"/>
+
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/bg_shape_down"
+                  android:textSize="30sp"
+                  android:text="Simpan"
+                  android:fontFamily="@font/neon"/>
+
+
+
+          </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

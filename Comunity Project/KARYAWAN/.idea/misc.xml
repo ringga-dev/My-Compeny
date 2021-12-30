@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/drawable/bg_alert.xml" value="0.3574074074074074" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/drawable/bg_barcode.xml" value="0.3574074074074074" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/drawable/bg_icon.xml" value="0.23541666666666666" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/drawable/bg_senter_off.xml" value="0.3574074074074074" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/drawable/buton_end.xml" value="0.2328125" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/drawable/buton_start.xml" value="0.2328125" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout-w1240dp/item_notifications.xml" value="0.340234375" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/activity_absensi.xml" value="0.38697916666666665" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/activity_cuaca.xml" value="0.21927083333333333" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/activity_gempa.xml" value="0.21927083333333333" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/activity_main.xml" value="0.38333333333333336" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/auth_activity.xml" value="0.25" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/costum_scan.xml" value="0.33" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/fragment_dashboard.xml" value="0.21927083333333333" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/fragment_login.xml" value="0.38333333333333336" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/fragment_lupa_password.xml" value="0.25" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/fragment_notification.xml" value="0.21927083333333333" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/fragment_profile.xml" value="0.21927083333333333" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/fragment_register.xml" value="0.21666666666666667" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/item_cuaca.xml" value="0.33" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/item_gempa.xml" value="0.38697916666666665" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/item_notifications.xml" value="0.38697916666666665" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/main_fragment.xml" value="0.33" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/layout/register_fragment.xml" value="0.38333333333333336" />
+        <entry key="..\:/web/Comunity Project/KARYAWAN/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_shape_down"
+    android:layout_height="wrap_content">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_margin="5sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_register"
+        app:civ_border_color="#00454C"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="3sp"
+        app:civ_shadow_color="#002225"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="Hello, {User Name}"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:fontFamily="@font/neon"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="I wish you a happy life!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:fontFamily="@font/neon"
+        android:layout_marginBottom="5sp"/>
+
+</LinearLayout>

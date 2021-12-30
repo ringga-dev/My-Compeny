@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "6191893477",
+    "project_id": "code-cc7bd",
+    "storage_bucket": "code-cc7bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6191893477:android:c46d416516fde36cb73d0c",
+        "android_client_info": {
+          "package_name": "com.ravi.android.face.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6191893477-j8i0ptmrvlh2dtmuuu8e8bvofqogks5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrN4kU0HBpTYPuMZ0-e5URzZDr31AfURA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6191893477-j8i0ptmrvlh2dtmuuu8e8bvofqogks5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6191893477:android:54419e3c303a5c46b73d0c",
+        "android_client_info": {
+          "package_name": "com.ringga.mobileabsen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6191893477-j8i0ptmrvlh2dtmuuu8e8bvofqogks5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrN4kU0HBpTYPuMZ0-e5URzZDr31AfURA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6191893477-j8i0ptmrvlh2dtmuuu8e8bvofqogks5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

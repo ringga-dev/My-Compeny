@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu_home.AboutEtowaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/neon"
+            android:text="About room"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/menu_about_etowa"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.3"
+                    android:src="@drawable/ic_about" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.8"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="About Etowa"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_fisi_misi"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.3"
+                    android:src="@drawable/ic_visi_misi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.8"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="Fisi-Misi Etowa"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/menu_image_etowa"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.3"
+                    android:src="@drawable/ic_photo_gallery" />
+
+                <TextView
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.8"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="Image Etowa"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_rating_etowa"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.3"
+                    android:src="@drawable/ic_rating" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.8"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="Rating Etowa"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

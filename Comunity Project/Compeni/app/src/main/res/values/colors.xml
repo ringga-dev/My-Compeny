@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#B983FF</color>
+    <color name="purple_500">#94B3FD</color>
+    <color name="purple_700">#94DAFF</color>
+    <color name="teal_200">#99FEFF</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--color 1-->
+    <color name="putih">#FEF5ED</color>
+    <color name="aaterang">#D3E4CD</color>
+    <color name="aasedang">#ADC2A9</color>
+    <color name="aagelap">#99A799</color>
+
+    <!--color 2-->
+    <color name="cremgelap">#F6D7A7</color>
+    <color name="cremterang">#F6EABE</color>
+    <color name="birulembur">#C8E3D4</color>
+    <color name="birugelap">#87AAAA</color>
+
+    <!--color 3-->
+    <color name="merah">#B91646</color>
+    <color name="cremmuda">#DFD8CA</color>
+    <color name="cremlembut">#FBF3E4</color>
+    <color name="teal">#105652</color>
+</resources>

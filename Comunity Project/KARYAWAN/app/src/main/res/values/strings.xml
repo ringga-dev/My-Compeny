@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">KARYAWAN ETOWA</string>
+    <string name="app_by">Designed by ringga-dev</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_dumi">    Apa itu framework? Framework adakah library yang berisi perintah dan juga semua kode yang dibutuhkan pengembang web intim membuat web lebih cepat dan mudah. Pengembang tidak perlu menuliskan semua kode dari awal, cukup panggil modul yang diinginkan kemudian menyesuaikannya sesuai dengan keinginan. \n
+        Dan di artikel Androbuntu kali ini saya akan membahas salah satu framework terkenal, yaitu Codeigniter.
+        Pengertian Codeigniter Pengertian Codeigniter adalah framework PHP yang menggunakan metode MVC atau Model,
+        View, Controller.
+        MVC sendiri adalah konsep atau teknik yang memisahkan antara komponen utama menjadi tiga komponen yaitu Model,
+        View dan Controller. Berikut ini adalah penjelasan dari masing-masing modul:
+        Model Model merupakan komponen yang berfungsi untuk mengolah dan memanipulasi database.\n\n
+        Contoh: menginput dan mengambil database, serta proses pengolahan database lainnya.
+        Intinya semua hal yang berhubungan dengan instruksi pengolahan database ada di dalam modul ini.
+        View View dalam Codeigniter merupakan bagian yang berfungsi untuk menangani segala hal tentang antarmuka
+        pengguna atau interface.
+        Modul View akan memudahkan pengembang web dalam membuat tampilan website secara cepat dengan hasil yang maksimal.
+        Controller Di Codeigniter, Controller adalah instruksi aksi yang fungsinya sebagai penghubung antara Model
+        dan View. Jadi pengguna tidak akan berhubungan langsung ke Model, melainkan melewati View yang kemudian
+        diteruskan oleh Controller ke Model. Codeigniter bersifat open source, karenanya dapat digunakan gratis dan
+        dikembangkan oleh siapa saja. Sejarah Codeigniter Codeigniter pertama kali dikembangkan oleh Rick Ellis pada
+        tahun 2006 silam. Codeigniter berkembang dengan cepat dan digunakan oleh banyak website sejak saat itu.
+                \n\n Apalagi dokumentasi di situs resminya cukup lengkap, sehingga memudahkan pars pengembang yang
+        ingin belajar dan mencobanya. Banyak pengembang yang menggunakannya untuk mengembangkan web dinamis.
+        Bahkan pencipta PHP, Rasmus Lerdrof memuji Codeigniter dan mengatakan bahwa framework ini cepat dan ringan.
+        Kelebihan Menggunakan Codeigniter Sama seperti framework lainnya, Codeigniter juga dibuat dengan tujuan untuk
+        mempermudah pengembang web.
+         \n\n
+        Dan berikut ini adalah kelebihan yang kamu dapatkan saat menggunakan Codeigniter:
+        Keamanan yang cukup baik karena pengguna tidak terhubung langsung dengan database Terdapat fasilitas bernama
+        library dan helper, cocok untuk membantu kami dalam membuat session, pagination hingga manipulasi URL Mudah
+        untuk digunakan dan dipelajari Komunitas yang aktif di internet Pengembangan yang aktif, hampir setiap bulan di
+        update Memiliki syntax yang terstruktur dengan baik Lebih bebas untuk dikembangkan jika dibandingkan dengan CMS
+        Mempercepat proses pengembangan suatu website Contoh Website yang Menggunakan Codeigniter Karena kehandalannya,
+        Codeigniter sudah digunakan oleh banyak pengembang di seluruh dunia untuk membuat website.
+        Mulai dari website kecil, hingga website milik perusahaan sudah banyak yang menggunakan Codeigniter. \n
+        Berikut ini adalah sedikit contoh website yang menggunakan Codeigniter:
+         \n - Casio.com
+        \n - Freedcamp.com Mg.co.za
+         \n - Buffer.com
+         \n - Nissan.com
+         \n - Creditflux.com
+         \n - McClatchy.com
+         \n - Bonfire.com</string>
+
+</resources>

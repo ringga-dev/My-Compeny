@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="100dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginHorizontal="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_icon"
+        android:layout_height="wrap_content">
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="170sp"-->
+<!--            android:layout_weight="0.9"-->
+<!--            android:background="@drawable/bg_icon"-->
+<!--            android:src="@drawable/ic_weather"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/kota"
+                android:textSize="20dp"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/billo"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="kota :Payakumbuh" />
+
+            <TextView
+                android:id="@+id/pagi"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/billo"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Pagi :Berawan" />
+
+            <TextView
+                android:id="@+id/siang"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/billo"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Siang :Payakumbuh" />
+
+            <TextView
+                android:id="@+id/malam"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/billo"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="malam :Payakumbuh" />
+
+            <TextView
+                android:id="@+id/dini_hari"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/billo"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Dini Hari :Payakumbuh" />
+
+            <TextView
+                android:id="@+id/suhu"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/billo"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Suhu :Payakumbuh" />
+
+            <TextView
+                android:id="@+id/kelembaban"
+                android:textColor="@color/teal"
+                android:fontFamily="@font/billo"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Kelembaban :20" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

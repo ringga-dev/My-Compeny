@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.setting.SettingActivity">
+
+    <Switch
+        android:text="Gunakan Token"
+        android:fontFamily="@font/neon"
+        android:id="@+id/sw_pindah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <LinearLayout
+        android:id="@+id/view_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:fontFamily="@font/disko"
+            android:gravity="center"
+            android:text="TOKEN"
+            android:textColor="@color/md_red_400"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/ed_token"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:background="@drawable/custom_edit_text_rounded"
+            android:gravity="start"
+            android:hint="Token"
+            android:inputType="text|textMultiLine"
+            android:padding="10sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:scrollIndicators="" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/bg_shape_button"
+            android:text="SET SETTING" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/view_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:fontFamily="@font/disko"
+            android:gravity="center"
+            android:text="USER AND PASSWORD"
+            android:textColor="@color/md_red_400"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/ed_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/custom_edit_text_rounded"
+            android:hint="User"
+            android:padding="10sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <EditText
+            android:id="@+id/ed_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/custom_edit_text_rounded"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:padding="10sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/bg_shape_button"
+            android:text="SET SETTING" />
+
+    </LinearLayout>
+
+</LinearLayout>

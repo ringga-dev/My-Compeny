@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.menu_home.ProductMenuFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/neon"
+            android:text="Product room"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/order"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:src="@drawable/ic_order" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="Order"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/di_setujui"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:src="@drawable/ic_approved" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="Di Setujui"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/di_tolak"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:src="@drawable/ic_reject" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="Barang di Tolak"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/di_pesan"
+                android:layout_width="0sp"
+                android:layout_height="180sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_shape_card"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:src="@drawable/ic_order" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_marginHorizontal="3sp"
+                    android:layout_marginBottom="3sp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/neon"
+                    android:gravity="center"
+                    android:text="Di Pesan"
+                    android:textColor="@color/black_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

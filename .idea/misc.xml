@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/web/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3236286919831224" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_card.xml" value="0.3265822784810127" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_layar_atas.xml" value="0.3236286919831224" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_shape_button.xml" value="0.3265822784810127" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_shape_card.xml" value="0.10648148148148148" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_shape_center.xml" value="0.25277777777777777" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_shape_down.xml" value="0.13333333333333333" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_shape_login_l.xml" value="0.23489583333333333" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_shape_login_r.xml" value="0.23489583333333333" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_shape_up.xml" value="0.25277777777777777" />
+        <entry key="..\:/web/app/src/main/res/drawable/custom_edit_text_rounded.xml" value="0.3265822784810127" />
+        <entry key="..\:/web/app/src/main/res/drawable/custom_seekbar_progress.xml" value="0.18796296296296297" />
+        <entry key="..\:/web/app/src/main/res/drawable/custom_thumb.xml" value="0.18796296296296297" />
+        <entry key="..\:/web/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3236286919831224" />
+        <entry key="..\:/web/app/src/main/res/drawable/logo_shape.xml" value="0.23489583333333333" />
+        <entry key="..\:/web/app/src/main/res/drawable/loign_shape.xml" value="0.23489583333333333" />
+        <entry key="..\:/web/app/src/main/res/layout/activity_about.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/activity_auth.xml" value="0.25" />
+        <entry key="..\:/web/app/src/main/res/layout/activity_home.xml" value="0.38697916666666665" />
+        <entry key="..\:/web/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/web/app/src/main/res/layout/activity_product.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/web/app/src/main/res/layout/activity_user.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_about.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_about_etowa.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_approved.xml" value="0.33" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_chage_image.xml" value="0.14" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_chage_password.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_edit_profile.xml" value="0.25" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_fisi_misi.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_home_menu.xml" value="0.25" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_image_etowa.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_my_profile.xml" value="0.25" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_order.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_order_success.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_product_menu.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_rating.xml" value="0.25" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_register.xml" value="0.2046875" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_reject.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_user_menu.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/item_image_etowa.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/item_view_order.xml" value="0.3145299145299145" />
+        <entry key="..\:/web/app/src/main/res/layout/upbar_profile.xml" value="0.18" />
+        <entry key="..\:/web/app/src/main/res/layout/upbar_stts.xml" value="0.2" />
+        <entry key="..\:/web/app/src/main/res/menu/home_menu.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.191025641025641" />
+        <entry key="..\:/web/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.191025641025641" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
