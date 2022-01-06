@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/web/app/src/main/res/drawable-v24/bg_alert.xml" value="0.19316239316239317" />
         <entry key="..\:/web/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3236286919831224" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_alert.xml" value="0.19316239316239317" />
         <entry key="..\:/web/app/src/main/res/drawable/bg_card.xml" value="0.3265822784810127" />
         <entry key="..\:/web/app/src/main/res/drawable/bg_layar_atas.xml" value="0.3236286919831224" />
         <entry key="..\:/web/app/src/main/res/drawable/bg_shape_button.xml" value="0.3265822784810127" />
@@ -13,6 +15,7 @@
         <entry key="..\:/web/app/src/main/res/drawable/bg_shape_login_l.xml" value="0.23489583333333333" />
         <entry key="..\:/web/app/src/main/res/drawable/bg_shape_login_r.xml" value="0.23489583333333333" />
         <entry key="..\:/web/app/src/main/res/drawable/bg_shape_up.xml" value="0.25277777777777777" />
+        <entry key="..\:/web/app/src/main/res/drawable/bg_text.xml" value="0.19316239316239317" />
         <entry key="..\:/web/app/src/main/res/drawable/custom_edit_text_rounded.xml" value="0.3265822784810127" />
         <entry key="..\:/web/app/src/main/res/drawable/custom_seekbar_progress.xml" value="0.18796296296296297" />
         <entry key="..\:/web/app/src/main/res/drawable/custom_thumb.xml" value="0.18796296296296297" />
@@ -26,6 +29,7 @@
         <entry key="..\:/web/app/src/main/res/layout/activity_product.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/activity_setting.xml" value="0.25" />
         <entry key="..\:/web/app/src/main/res/layout/activity_user.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/alert_order.xml" value="0.25" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_about.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_about_etowa.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_approved.xml" value="0.33" />

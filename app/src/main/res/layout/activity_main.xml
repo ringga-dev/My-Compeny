@@ -17,10 +17,11 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:src="@drawable/logo_etowa"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:paddingHorizontal="50dp"
         android:layout_height="match_parent"
+        android:paddingHorizontal="50dp"
+        android:src="@drawable/logo_etowa"
         tools:ignore="MissingConstraints" />
 
 
@@ -42,27 +43,40 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
         android:fontFamily="@font/gecko_lunch"
         android:gravity="center"
         android:text="PT. ETOWA PACKAGING INDONESIA"
         android:textColor="#134C8A"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintBottom_toTopOf="@+id/tv_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/gecko_lunch"
         android:gravity="center"
-        android:layout_marginTop="8dp"
         android:text="MY  ETOWA"
         android:textColor="#4B5661"
         android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:textColor="#FFB700"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="3dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

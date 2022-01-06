@@ -12,6 +12,7 @@
         tools:listitem="@layout/item_view_order"/>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/openNewOrder"
         android:layout_width="50sp"
         android:layout_height="50sp"
         app:cardBackgroundColor="@color/dark_color"
