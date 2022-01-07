@@ -1,8 +1,0 @@
-<resources>
-
-    <string name="mapbox_access_token">sk.eyJ1IjoicmluZ2dhZGV2OTciLCJhIjoiY2t0aWNzMnBrMTBpNjJvbnVyYXV1bXl4NyJ9.If6ZO7JE7qpPF8nw8KBHJw</string>
-
-    <string name="app_name">MobileAbsen</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-</resources>
