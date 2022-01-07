@@ -9,9 +9,8 @@ import com.ringga.myetowa.databinding.FragmentChageImageBinding
 import android.content.pm.ActivityInfo
 
 import android.app.Activity
-
-
-
+import coil.api.load
+import com.ringga.myetowa.R
 
 
 class ChageImageFragment : Fragment() {
@@ -36,6 +35,7 @@ class ChageImageFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
 
+        binding.imageProfile.load(R.drawable.assess_iblis)
     }
 
     override fun onResume() {

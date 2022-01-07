@@ -13,6 +13,7 @@ import android.widget.ImageView
 import androidx.cardview.widget.CardView
 import com.ringga.myetowa.R
 import com.ringga.myetowa.databinding.FragmentOrderBinding
+import com.ringga.myetowa.ui.menu_home.product.ProductDetailActivity
 
 
 class OrderFragment : Fragment() {
@@ -38,6 +39,10 @@ class OrderFragment : Fragment() {
 
         binding.openNewOrder.setOnClickListener {
             showCustomAlert()
+        }
+
+        binding.root.setOnClickListener {
+            activity?.startActivity(Intent(requireContext(), ProductDetailActivity::class.java))
         }
 
     }

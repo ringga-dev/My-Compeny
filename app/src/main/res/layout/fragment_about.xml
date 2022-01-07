@@ -54,6 +54,7 @@
                         android:textSize="20sp" />
 
                     <ImageView
+                        android:scaleType="fitXY"
                         android:layout_width="match_parent"
                         android:layout_height="200sp"
                         android:src="@drawable/assets_pedang"/>

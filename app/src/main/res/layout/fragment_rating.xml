@@ -24,6 +24,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
+                android:scaleType="fitXY"
                 android:layout_height="250sp"
                 android:src="@drawable/assets_orbit" />
         </androidx.cardview.widget.CardView>

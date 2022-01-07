@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,9 @@
         android:roundIcon="@mipmap/ic_image_all_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MYEtowa">
+        <activity
+            android:name=".ui.menu_home.product.ProductDetailActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.setting.SettingActivity"
             android:exported="false" />
