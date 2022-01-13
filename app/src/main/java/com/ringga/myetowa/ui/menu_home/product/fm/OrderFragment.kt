@@ -11,16 +11,23 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.cardview.widget.CardView
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.ringga.myetowa.R
+import com.ringga.myetowa.data.adapter.ListOrderUserAdapter
 import com.ringga.myetowa.databinding.FragmentOrderBinding
+import com.ringga.myetowa.ui.menu_home.UserHomeState
+import com.ringga.myetowa.ui.menu_home.UserHomeViewModel
 import com.ringga.myetowa.ui.menu_home.product.ProductDetailActivity
+import com.ringga.security.util.toast
 
 
 class OrderFragment : Fragment() {
     companion object {
         fun newInstance() = OrderFragment()
     }
-
+    private lateinit var userViewModel: UserHomeViewModel
     private var _binding: FragmentOrderBinding? = null
     private val binding get() = _binding!!
 
@@ -29,6 +36,7 @@ class OrderFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        userViewModel = ViewModelProviders.of(this).get(UserHomeViewModel::class.java)
         _binding = FragmentOrderBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -36,7 +44,7 @@ class OrderFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
+        userViewModel.getOrderUser(requireContext(),"order")
         binding.openNewOrder.setOnClickListener {
             showCustomAlert()
         }
@@ -45,7 +53,53 @@ class OrderFragment : Fragment() {
             activity?.startActivity(Intent(requireContext(), ProductDetailActivity::class.java))
         }
 
+        setupRecler()
+
+//        binding.tvName
+        userViewModel.getState().observer(this, Observer {
+            handleUiState(it)
+        })
+
+
     }
+
+
+    private fun handleUiState(it: UserHomeState) {
+        when (it) {
+            is UserHomeState.Error -> {
+//                isloding(false)
+                toast(requireContext(), it.err)
+            }
+            is UserHomeState.ShoewToals -> toast(requireContext(), it.message)
+            is UserHomeState.Failed -> {
+//                isloding(false)
+                toast(requireContext(), it.message)
+            }
+
+            is UserHomeState.userData -> {
+
+            }
+            is UserHomeState.userOrder ->{
+                binding.ivOrder.adapter?.let { adapter ->
+                    if (adapter is ListOrderUserAdapter) {
+                        adapter.setLagu(it.data.data)
+                    }
+                }
+            }
+//            is UserState.IsLoding -> isloding(it.state)
+        }
+    }
+
+    private fun setupRecler() {
+        binding.ivOrder.apply {
+            layoutManager = StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
+            adapter = ListOrderUserAdapter(mutableListOf(), requireContext(), requireFragmentManager())
+
+        }
+    }
+
+
+
 
     private fun showCustomAlert() {
 
@@ -54,6 +108,7 @@ class OrderFragment : Fragment() {
         val jadwal_visitor = infla_view.findViewById<CardView>(R.id.btn_jadwal_visitor)
         val daftar_visitor = infla_view.findViewById<CardView>(R.id.btn_daftar_visitor)
         val visitor_now = infla_view.findViewById<CardView>(R.id.btn_visitor_now)
+
         val cencel = infla_view.findViewById<ImageView>(R.id.btn_cencel)
         jadwal_visitor.setOnClickListener {
 //            startActivity(Intent(this, DaftarVisitorPlanActivity::class.java))

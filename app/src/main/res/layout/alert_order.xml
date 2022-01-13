@@ -100,12 +100,13 @@
             app:cardBackgroundColor="#678080"
             app:cardCornerRadius="20dp">
 
-            <ImageView
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0.5"
-                android:src="@drawable/assets_pedang" />
+<!--            <ImageView-->
+<!--                android:id="@+id/image_upload"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="0.5"-->
+<!--                android:src="@drawable/assets_pedang" />-->
 
         </androidx.cardview.widget.CardView>
 

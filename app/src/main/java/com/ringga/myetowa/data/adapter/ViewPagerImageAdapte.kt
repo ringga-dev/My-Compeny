@@ -10,7 +10,7 @@ import android.view.LayoutInflater
 import android.view.View
 
 import androidx.recyclerview.widget.RecyclerView
-import coil.api.load
+import coil.load
 import com.ringga.myetowa.R
 import com.ringga.myetowa.databinding.ItemImageViewBinding
 

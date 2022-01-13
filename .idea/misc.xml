@@ -44,14 +44,16 @@
         <entry key="..\:/web/app/src/main/res/layout/fragment_my_profile.xml" value="0.25" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_order.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_order_success.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_ordering.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_product_menu.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_rating.xml" value="0.25" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_register.xml" value="0.2046875" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_reject.xml" value="0.3175213675213675" />
+        <entry key="..\:/web/app/src/main/res/layout/fragment_take.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/fragment_user_menu.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/item_image_etowa.xml" value="0.3175213675213675" />
         <entry key="..\:/web/app/src/main/res/layout/item_image_view.xml" value="0.3175213675213675" />
-        <entry key="..\:/web/app/src/main/res/layout/item_view_order.xml" value="0.3145299145299145" />
+        <entry key="..\:/web/app/src/main/res/layout/item_view_order.xml" value="0.25" />
         <entry key="..\:/web/app/src/main/res/layout/upbar_profile.xml" value="0.18" />
         <entry key="..\:/web/app/src/main/res/layout/upbar_stts.xml" value="0.2" />
         <entry key="..\:/web/app/src/main/res/menu/home_menu.xml" value="0.3175213675213675" />

@@ -11,7 +11,9 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.Toast
 import com.ringga.myetowa.R
+import com.ringga.myetowa.data.database.SharedPrefManager
 import com.ringga.myetowa.ui.auth.fragment.RegisterFragment
+import com.ringga.myetowa.ui.home.HomeActivity
 import com.ringga.myetowa.ui.setting.SettingActivity
 import com.ringga.security.util.chage_color_stts_bar
 import com.ringga.security.util.snackbar
@@ -85,5 +87,14 @@ class AuthActivity : AppCompatActivity() {
         Toast.makeText(this, path.path, Toast.LENGTH_SHORT).show()
 
 
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if(SharedPrefManager.getInstance(this).isLoggedIn){
+            startActivity(Intent(this, HomeActivity::class.java)).also {
+                finish()
+            }
+        }
     }
 }

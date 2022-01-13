@@ -73,7 +73,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
-                android:hint="Email"
+                android:hint="Email or Username"
                 android:textColorHint="@color/black_color">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:fontFamily="@font/the_meshroom_regular"
-                    android:inputType="textEmailAddress"
+                    android:inputType="text"
                     android:maxLines="1" />
             </com.google.android.material.textfield.TextInputLayout>
 

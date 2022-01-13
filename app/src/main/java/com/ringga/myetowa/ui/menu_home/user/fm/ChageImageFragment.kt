@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import com.ringga.myetowa.databinding.FragmentChageImageBinding
 import android.content.pm.ActivityInfo
 
-import android.app.Activity
-import coil.api.load
+import coil.load
 import com.ringga.myetowa.R
 
 

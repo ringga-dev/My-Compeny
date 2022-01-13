@@ -40,7 +40,7 @@
             android:layout_height="wrap_content">
 
             <com.ismaeldivita.chipnavigation.ChipNavigationBar
-                app:cnb_iconSize="40sp"
+                app:cnb_iconSize="30sp"
                 android:id="@+id/navigasi_controller"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

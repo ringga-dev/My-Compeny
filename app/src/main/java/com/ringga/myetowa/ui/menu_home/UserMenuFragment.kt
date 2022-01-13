@@ -7,7 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import com.ringga.myetowa.databinding.FragmentUserMenuBinding
 import android.content.Intent
+import android.widget.Toast
+import androidx.lifecycle.ViewModelProviders
+import com.ringga.myetowa.data.database.PreferencesToken
+import com.ringga.myetowa.data.database.SharedPrefManager
+import com.ringga.myetowa.ui.auth.UserState
+import com.ringga.myetowa.ui.home.HomeActivity
 import com.ringga.myetowa.ui.menu_home.user.UserActivity
+import com.ringga.security.util.toast
 
 
 class UserMenuFragment : Fragment() {
@@ -15,13 +22,14 @@ class UserMenuFragment : Fragment() {
     companion object {
         fun newInstance()=  UserMenuFragment()
     }
-
+    private lateinit var userViewModel: UserHomeViewModel
     private var _binding: FragmentUserMenuBinding? = null
     private val binding get() = _binding!!
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        userViewModel = ViewModelProviders.of(this).get(UserHomeViewModel::class.java)
         _binding = FragmentUserMenuBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -55,5 +63,32 @@ class UserMenuFragment : Fragment() {
         }
 
     }
+
+
+    private fun handleUiState(it: UserState) {
+        when (it) {
+
+            is UserState.Error -> {
+//                isloding(false)
+                toast(requireContext(), it.err)
+            }
+            is UserState.ShoewToals -> toast(requireContext(), it.message)
+            is UserState.Failed -> {
+//                isloding(false)
+                toast(requireContext(), it.message)
+            }
+
+            is UserState.SuccessLogin -> {
+                SharedPrefManager.getInstance(requireContext()).saveUser(it.data.data)
+                PreferencesToken.setToken(requireContext(), it.data.token)
+                Toast.makeText(requireContext(), it.data.toString(), Toast.LENGTH_SHORT).show()
+
+                startActivity(Intent(requireContext(), HomeActivity::class.java))
+                activity?.finish()
+            }
+//            is UserState.IsLoding -> isloding(it.state)
+        }
+    }
+
 
 }

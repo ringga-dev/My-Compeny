@@ -8,36 +8,37 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.ringga.myetowa.R
 import com.ringga.myetowa.data.adapter.ListOrderUserAdapter
-import com.ringga.myetowa.databinding.FragmentOrderSuccessBinding
+import com.ringga.myetowa.databinding.FragmentOrderingBinding
+import com.ringga.myetowa.databinding.FragmentTakeBinding
 import com.ringga.myetowa.ui.menu_home.UserHomeState
 import com.ringga.myetowa.ui.menu_home.UserHomeViewModel
 import com.ringga.security.util.toast
 
 
-class OrderSuccessFragment : Fragment() {
+class TakeFragment : Fragment() {
+
     companion object {
-        fun newInstance() = OrderSuccessFragment()
+        fun newInstance() = OrderingFragment()
     }
 
     private lateinit var userViewModel: UserHomeViewModel
-    private var _binding: FragmentOrderSuccessBinding? = null
+    private var _binding: FragmentTakeBinding? = null
     private val binding get() = _binding!!
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         userViewModel = ViewModelProviders.of(this).get(UserHomeViewModel::class.java)
-        _binding = FragmentOrderSuccessBinding.inflate(inflater, container, false)
+        _binding = FragmentTakeBinding.inflate(inflater, container, false)
         return binding.root
     }
 
-
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        userViewModel.getOrderUser(requireContext(), "success")
+        userViewModel.getOrderUser(requireContext(), "take")
         setupRecler()
 
 //        binding.tvName
@@ -62,7 +63,7 @@ class OrderSuccessFragment : Fragment() {
 
             }
             is UserHomeState.userOrder -> {
-                binding.rvOrderSuccess.adapter?.let { adapter ->
+                binding.rvTake.adapter?.let { adapter ->
                     if (adapter is ListOrderUserAdapter) {
                         adapter.setLagu(it.data.data)
                     }
@@ -73,7 +74,7 @@ class OrderSuccessFragment : Fragment() {
     }
 
     private fun setupRecler() {
-        binding.rvOrderSuccess.apply {
+        binding.rvTake.apply {
             layoutManager = StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
             adapter =
                 ListOrderUserAdapter(mutableListOf(), requireContext(), requireFragmentManager())

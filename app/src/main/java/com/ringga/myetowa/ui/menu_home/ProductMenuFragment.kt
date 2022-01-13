@@ -37,29 +37,38 @@ class ProductMenuFragment : Fragment() {
             R.anim.scale_down_button
         )
 
-        binding.order.setOnClickListener {
+        binding.btnOrder.setOnClickListener {
             val chage = Intent(requireContext(), ProductActivity::class.java)
             chage.putExtra("fragment", "order")
             startActivity(chage)
         }
 
-        binding.diSetujui.setOnClickListener {
+        binding.btnApproved.setOnClickListener {
             val chage = Intent(requireContext(), ProductActivity::class.java)
             chage.putExtra("fragment", "approved")
             startActivity(chage)
         }
 
-        binding.diTolak.setOnClickListener {
+        binding.btnReject.setOnClickListener {
             val chage = Intent(requireContext(), ProductActivity::class.java)
             chage.putExtra("fragment", "reject")
             startActivity(chage)
         }
-        binding.diPesan.setOnClickListener {
+        binding.btnOrdering.setOnClickListener {
+            val chage = Intent(requireContext(), ProductActivity::class.java)
+            chage.putExtra("fragment", "ordering")
+            startActivity(chage)
+        }
+
+        binding.btnTake.setOnClickListener {
+            val chage = Intent(requireContext(), ProductActivity::class.java)
+            chage.putExtra("fragment", "take")
+            startActivity(chage)
+        }
+        binding.btnSucces.setOnClickListener {
             val chage = Intent(requireContext(), ProductActivity::class.java)
             chage.putExtra("fragment", "orderSuccess")
             startActivity(chage)
         }
-
-
     }
 }

@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.menu_home.product.fm.OrderSuccessFragment">
+    tools:context=".ui.menu_home.product.fm.OrderingFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_order_success"
+        android:id="@+id/iv_ordering"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_view_order"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
